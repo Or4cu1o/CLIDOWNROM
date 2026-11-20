@@ -1,3 +1,17 @@
+[![Status](https://img.shields.io/badge/status-archived-red.svg)](#)
+
+> [!WARNING]
+> **⚠️ DEPRECATED / ARCHIVED — this project is no longer maintained.**
+>
+> CLIDOWNROM relied on the CrocDB API, which was succeeded by **[Mothdex](https://github.com/cavv-dev/mothdex-api)** (API v1 at `https://api.mothdex.net/v1`, incompatible with CrocDB). Because of this, CLIDOWNROM no longer works and will not receive updates.
+>
+> Please use its successors:
+>
+> - **[mothdex-cli](https://github.com/Or4cu1o/mothdex-cli)** — CLI, shell, TUI and gamepad client
+> - **[mothdex-mcp](https://github.com/Or4cu1o/mothdex-mcp)** — MCP server and Claude Code plugin
+
+---
+
 # CLI Download ROM
 
 [![Status](https://img.shields.io/badge/status-beta-yellow.svg)](#)
@@ -58,13 +72,13 @@ clidownrom --interface gui
 
 ### Install via Git
 ```bash
-git clone https://github.com/Oraculo-sh/CLIDOWNROM.git
+git clone https://github.com/Or4cu1o/CLIDOWNROM.git
 cd CLIDOWNROM
 pip install -r requirements.txt
 ```
 
 ### Standalone Executable
-Download the precompiled executable from the [releases page](https://github.com/Oraculo-sh/CLIDOWNROM/releases).
+Download the precompiled executable from the [releases page](https://github.com/Or4cu1o/CLIDOWNROM/releases).
 
 ## 🚀 Quick Start
 
@@ -182,7 +196,7 @@ The system automatically detects and loads new language files when they are plac
 
 ### Environment Setup
 ```bash
-git clone https://github.com/Oraculo-sh/CLIDOWNROM.git
+git clone https://github.com/Or4cu1o/CLIDOWNROM.git
 cd CLIDOWNROM
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
